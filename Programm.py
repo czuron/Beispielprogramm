@@ -1,7 +1,3 @@
-# Guten Tag. Mit diesem Programm möchte ich Ihnen meine
-# aktuellen Fähigkeiten demonstrieren, damit für Sie eine
-# Einschätzung meiner Eignung möglich ist. 
-
 import sqlite3, time, random, re
 
 class Rechner:
