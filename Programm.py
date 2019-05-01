@@ -8,9 +8,7 @@ import sqlite3, time, random, re
 class Rechner:
 
     def diff():
-        # Funktion: f(x) = 6x^4 + x^3 + 12x + 5
-        # => 24x^3 + 3x^2 + 12
-        # Allgemeine Form: f(x)=a_n x^n + a_n-1 x^n-1 + ... + a0
+        # Funktion zum Ableiten von Polynomen
         print("\nEs müssen Grad des Polynoms und die Koeffizienten " +
               "in absteigender Reihenfolge eingegeben werden.\n")
         
@@ -63,8 +61,7 @@ class Rechner:
                 print("",end="")
 
     def integral():
-        # Funktion f(x) = 24x^3 + 3x^2 + 12
-        # => F(x) = 6x^4 + x^3 + 12x + C
+        # Funktion zum Integrieren von Polynomen
         print("\nEs müssen Grad des Polynoms und die Koeffizienten " +
               "in absteigender Reihenfolge eingegeben werden.\n")
         
@@ -332,6 +329,7 @@ class Algorithmen:
         return Algorithmen.scan(liste, 0, 1)
 
     def histogram():
+        # // Funktion zum Erstellen eines Histogramms einer zufälligen Liste
         # Erstellt eine liste l mit m Zahlen der Reichweite n
         n = 10
         m = 50
